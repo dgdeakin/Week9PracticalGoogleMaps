@@ -1,26 +1,28 @@
 
 
 # References:
-1. https://developers.google.com/maps/documentation/android-sdk/start
-2. https://developers.google.com/maps/documentation/android-sdk/utility/setup
+## 1. https://developers.google.com/maps/documentation/android-sdk/start
+## 2. https://developers.google.com/maps/documentation/android-sdk/utility/setup
 
-   implementation("com.google.maps.android:android-maps-utils:3.10.0")
-3. Get API KEY
+   ```implementation("com.google.maps.android:android-maps-utils:3.10.0")```
+
+## 3. Get API KEY
    https://developers.google.com/maps/documentation/android-sdk/get-api-key
 
 ****************************IMPORTANT IMPORTANT**************************************
+
 NOTE: Make sure, you delete the API key after you use it. DON't share to the github repo.
+
 ********************************************************************************************
 
-4. Click on Go to the Credentials page from above link in Creating API Keys section.
+## 4. Click on Go to the Credentials page from above link in Creating API Keys section.
 
 <img src="screenshots/img.png" width="300"/>
 
-5. From there, go to Keys & Credentials and Create or Select the project.
+## 5. From there, go to Keys & Credentials and Create or Select the project.
 
-[img_1.png](screenshots/img_1.png)
 
-6. Project your API key -> Select Android Apps ( Select Maybe Later for now)
+## 6. Project your API key -> Select Android Apps ( Select Maybe Later for now)
 
 Maps SDK:
 The Maps SDK for Android lets you embed Google Maps into your app, along with customizable markers, lines, and overlays for rich map interactions.
