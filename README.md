@@ -1,3 +1,11 @@
+# App Outputs
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 10px;">
+    <img src="screenshots/mainactivity.png" alt="Image 1" style="width: 23%; height: auto;">
+    <img src="screenshots/mapsactivity.png" alt="Image 2" style="width: 23%; height: auto;">
+    <img src="screenshots/placesactivity1.png" alt="Image 3" style="width: 23%; height: auto;">
+    <img src="screenshots/placesactivity2.png" alt="Image 4" style="width: 23%; height: auto;">
+</div>
+
 
 
 # References:
