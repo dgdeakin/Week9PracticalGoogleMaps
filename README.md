@@ -24,11 +24,14 @@ NOTE: Make sure, you delete the API key after you use it. DON't share to the git
 
 ## 6. Project your API key -> Select Android Apps ( Select Maybe Later for now)
 
-Maps SDK:
+# Maps SDK:
+
 The Maps SDK for Android lets you embed Google Maps into your app, along with customizable markers, lines, and overlays for rich map interactions.
 ![img_2.png](screenshots/img_2.png)
 
-Paces SDK: https://developers.google.com/maps/documentation/places/android-sdk/autocomplete
+# Paces SDK: 
+
+https://developers.google.com/maps/documentation/places/android-sdk/autocomplete
 https://developers.google.com/maps/documentation/places/android-sdk/config
 
     implementation("com.google.android.libraries.places:places:3.5.0")
