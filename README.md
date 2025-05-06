@@ -1,9 +1,9 @@
 # App Outputs
 <div>
-    <img src="screenshots/mainactivity.png" width="23%" alt="Image 1">
-    <img src="screenshots/mapsactivity.png" width="23%" alt="Image 2">
-    <img src="screenshots/placesactivity1.png" width="23%" alt="Image 3">
-    <img src="screenshots/placesactivity2.png" width="23%" alt="Image 4">
+    <img src="screenshots/mainactivity.png" width="100" alt="Image 1">
+    <img src="screenshots/mapsactivity.png" width="100" alt="Image 2">
+    <img src="screenshots/placesactivity1.png" width="100" alt="Image 3">
+    <img src="screenshots/placesactivity2.png" width="100" alt="Image 4">
 </div>
 
 
