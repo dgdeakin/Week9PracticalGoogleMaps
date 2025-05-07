@@ -15,6 +15,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        Properties properties = new Properties();
+        properties.load(project.rootProject.file("local.properties").newDataInputStream());
+
+        buildConfigField "String", "API_KEY","\"${properties.getProperty("MAPS_API_KEY")}\""
+
     }
 
     buildTypes {
@@ -29,6 +35,8 @@ android {
     }
     buildFeatures {
         viewBinding true
+        buildConfig true
+
     }
 }
 
@@ -46,3 +54,4 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
+

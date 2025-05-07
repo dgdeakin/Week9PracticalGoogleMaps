@@ -59,3 +59,6 @@ The quickest way to develop a working user interface is to use the Places SDK fo
 # Useful:
 ## Working with AppBar
 https://developer.android.com/guide/fragments/appbar
+
+# Secret Gradle Plugin
+https://github.com/google/secrets-gradle-plugin

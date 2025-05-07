@@ -13,6 +13,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+
 import com.example.week9practicalgooglemaps.databinding.ActivityPlacesBinding;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -76,7 +77,9 @@ public class PlacesActivity extends AppCompatActivity implements OnMapReadyCallb
         // YOU HAVE TO USE YOUR OWN API KEY in TWO PLACES:
         // 1. HERE
         // 2. IN local.properties FILE
-        Places.initialize(getApplicationContext(), "AIzaSyBKPb4stb_Co6br83QwLY_ybVlkk63gy3k");
+//        Places.initialize(getApplicationContext(), "AIzaSyBKPb4stb_Co6br83QwLY_ybVlkk63gy3k");
+        Places.initialize(getApplicationContext(),  BuildConfig.MAPS_API_KEY);
+//        Places.initialize(getApplicationContext(), BuildConfig.API_KEY);
 
 
         activityPlacesBinding.pickPlaceButton.setOnClickListener(v -> {
